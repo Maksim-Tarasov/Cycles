@@ -7,6 +7,10 @@ public class Main {
         fifthTask();
         sixthTask();
         seventhTask();
+        eighthTask();
+        ninthTask();
+        tenthTask();
+
     }
 
     public static void firstTask() {
@@ -61,4 +65,34 @@ public class Main {
             System.out.println(i);
 
     }
+
+    public static void eighthTask() {
+        System.out.println("задание 8");
+        int sum = 0;
+        for (int i = 1; i <= 12; i++) {
+            sum += 29000;
+            System.out.println(i + " месяц, сумма накоплений равна " + sum + " рублей");
+        }
+    }
+
+    public static void ninthTask() {
+        System.out.println("задание 9");
+        int sum = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + total / 100;
+            total = total + sum;
+            System.out.println(i + " месяц, сумма накоплений равна " + total + " рублей");
+        }
+        System.out.println(total);
+    }
+    public static void tenthTask(){
+        System.out.println("задание 10");
+        for(int i=1; i<=10; i++){
+            System.out.println(i+"*2=" +(i*2));}
+    }
+
 }
+
+
+
